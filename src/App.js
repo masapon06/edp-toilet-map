@@ -8,6 +8,7 @@ import {
 
 // components
 import { Map } from './containers/Map.tsx';
+import { Tab } from './containers/Tab.jsx';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           exact
           path="/">
           <Map />
+          <Tab />
         </Route>
       </Switch>
     </Router>
